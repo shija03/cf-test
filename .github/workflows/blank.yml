@@ -32,6 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: prepaaring tools 
         run: |
+          conda update -n base -c defaults conda
           conda install rattler-build 
           
       # Runs a set of commands using the runners shell
