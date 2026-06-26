@@ -40,4 +40,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Building library 
         run: |
-          rattler-build build --recipe recipe/recipe.yaml --channel conda-forge --output-dir ./build_artifacts
+          /usr/share/miniconda/bin/rattler-build build --recipe recipe/recipe.yaml --channel conda-forge --output-dir ./build_artifacts
